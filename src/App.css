@@ -1,0 +1,49 @@
+.App {
+    width: 100vw;
+    height: 100vh
+}
+
+.sidebar {
+    height: 100%;
+    width: 220px;
+    background-color: #2F4050
+}
+
+.sidebarlist {
+    height: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebarlist .row{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sidebarlist .row #active{
+    background-color: #293846
+}
+
+.sidebarlist .row:hover{
+    cursor: pointer;
+    background-color: #293846
+}
+
+.row #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.row #title {
+    flex: 70%
+}
